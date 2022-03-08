@@ -2,7 +2,9 @@
 
 This is a **simple** and **clear** beamer theme for academic and scientific presentation.
 
-modified from: [SimpleDarkBlue Beamer Theme](https://github.com/PM25/SimpleDarkBlue-BeamerTheme)
+Modified from: [SimpleDarkBlue Beamer Theme](https://github.com/PM25/SimpleDarkBlue-BeamerTheme) <br>
+
+Overleaf: [https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx)
 
 ## preview
 
