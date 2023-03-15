@@ -1,13 +1,15 @@
-# SimplePlus Beamer Theme
+# 🍃 SimplePlus Beamer Theme
 
-This is a **simple** and **clear** beamer theme for academic and scientific presentation.
+The SimplePlus Beamer Theme is a simple and clear template designed for academic and scientific presentations. It has been modified from the [SimpleDarkBlue](https://github.com/PM25/SimpleDarkBlue-BeamerTheme) Beamer Theme and offers a more minimalist approach to presentation design.
 
-Modified from: [SimpleDarkBlue Beamer Theme](https://github.com/PM25/SimpleDarkBlue-BeamerTheme) <br>
+You can find the SimplePlus Beamer Theme on [Overleaf](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx) or [CTAN](https://ctan.org/pkg/beamertheme-simpleplus). The Overleaf link provides an easy-to-use web-based LaTeX editor, while the CTAN link allows you to download the template files for use in your own LaTeX environment.
 
-Overleaf: [https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx) <br>
-CTAN: [https://ctan.org/pkg/beamertheme-simpleplus](https://ctan.org/pkg/beamertheme-simpleplus)
+* Overleaf: [https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx) <br>
+* CTAN: [https://ctan.org/pkg/beamertheme-simpleplus](https://ctan.org/pkg/beamertheme-simpleplus)
 
-## preview
+## Preview
+
+Here are some preview images of the SimplePlus Beamer Theme:
 
 ![page1](img/1.webp)
 ![page2](img/2.webp)
@@ -17,3 +19,8 @@ CTAN: [https://ctan.org/pkg/beamertheme-simpleplus](https://ctan.org/pkg/beamert
 ![page6](img/6.webp)
 ![page9](img/9.webp)
 ![page10](img/10.webp)
+
+Hope that you find the SimplePlus Beamer Theme to be a useful and effective tool for your academic and scientific presentations. Please let me know if you have any feedback or suggestions for improvement.
+
+## License
+This project is licensed under the Unlicense License - see the [LICENSE](./LICENSE) file for more details.
