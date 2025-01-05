@@ -1,6 +1,7 @@
 %----------------------------------------------------------------------------------------
-%	PACKAGES AND THEMES
+%    PACKAGES AND THEMES
 %----------------------------------------------------------------------------------------
+
 \documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
 \usetheme{SimplePlus}
 
@@ -9,24 +10,23 @@
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
 %----------------------------------------------------------------------------------------
-%	TITLE PAGE
+%    TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[short title]{Simple Beamer Theme} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title{Simple Beamer Theme}
 \subtitle{Subtitle}
 
-\author[Pin-Yen] {Pin-Yen Huang}
+\author{Pin-Yen Huang}
 
-\institute[NTU] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+\institute
 {
     Department of Computer Science and Information Engineering \\
     National Taiwan University % Your institution for the title page
 }
 \date{\today} % Date, can be changed to a custom date
 
-
 %----------------------------------------------------------------------------------------
-%	PRESENTATION SLIDES
+%    PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -86,7 +86,7 @@
             \item Example
         \end{enumerate}
 
-        \column{.5\textwidth} % Right column and width
+        \column{.45\textwidth} % Right column and width
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
 
     \end{columns}
@@ -140,14 +140,9 @@
 %------------------------------------------------
 
 \begin{frame}{References}
-    % Beamer does not support BibTeX so references must be inserted manually as below
-    \footnotesize{
-        \begin{thebibliography}{99}
-            \bibitem[Smith, 2012]{p1} John Smith (2012)
-            \newblock Title of the publication
-            \newblock \emph{Journal Name} 12(3), 45 -- 678.
-        \end{thebibliography}
-    }
+    \footnotesize
+    \bibliography{reference.bib}
+    \bibliographystyle{apalike}
 \end{frame}
 
 %------------------------------------------------

@@ -1,48 +1,67 @@
+% Inner Theme Settings
+
 \pgfdeclareverticalshading[lower.bg,upper.bg]{bmb@transition}{200cm}{%
-  color(0pt)=(lower.bg); color(2pt)=(lower.bg); color(4pt)=(lower.bg)}
+color(0pt)=(lower.bg); color(2pt)=(lower.bg); color(4pt)=(lower.bg)}
 
-\setbeamersize{text margin left=2em,text margin right=2em} 
-
-% table of contents (overview)
-\setbeamertemplate{section in toc}[sections numbered]
-\setbeamertemplate{subsection in toc}{\leavevmode\leftskip=3.2em\rlap{\hskip-2em\inserttocsectionnumber.\inserttocsubsectionnumber}\inserttocsubsection\par}
+\setbeamersize{text margin left=2em,text margin right=2em}
 
 \setbeamertemplate{footline}[frame number]
 \setbeamertemplate{navigation symbols}{}
+
 \setbeamertemplate{blocks}[rounded][shadow=false]
+
 \setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{enumerate subitem}[default]
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{itemize subitem}[circle]
 
-\setbeamertemplate{frametitle}{\vspace*{0.5em}\bfseries\insertframetitle\par\vskip-6pt\hrulefill\vspace{-0.1em}}
+% table of contents (overview) settings
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}{%
+    \leavevmode
+    \leftskip=3.2em
+    \rlap{\hskip-2em\inserttocsectionnumber.\inserttocsubsectionnumber}
+    \inserttocsubsection\par
+}
 
-\setbeamertemplate{title page}{
-    \vspace{7em}
+% frame title customization
+\setbeamertemplate{frametitle}{%
+    \vspace*{0.5em}
+    \bfseries\insertframetitle\par
+    \vskip-6pt
+    \hrulefill\vspace{-0.1em}
+}
+
+% title page customization
+\setbeamertemplate{title page}{%
+    \vspace{6em}
     \begingroup
-        \centering
-        % ------------------------
-        \begin{beamercolorbox}[sep=8pt,center]{title}
+    \centering
+    % ------------------------
+    \begin{beamercolorbox}[sep=10pt,center]{title}
         \usebeamerfont{title}\inserttitle\par%
         \ifx\insertsubtitle\@empty%
         \else%
-            \vskip0.25em%
-            {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
-        \fi%     
-        \end{beamercolorbox}%
-        \vskip0.5em\par
-        % ------------------------
-        \begin{beamercolorbox}[sep=8pt,center]{author}
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+        \fi%
+    \end{beamercolorbox}%
+    \vskip0.5em\par
+    % ------------------------
+    \begin{beamercolorbox}[sep=8pt,center]{author}
         \usebeamerfont{author}\insertauthor
-        \end{beamercolorbox}
-        \vskip-1em
-        % ------------------------
-        \begin{beamercolorbox}[sep=8pt,center]{institute}
+    \end{beamercolorbox}
+    \vskip-1em
+    % ------------------------
+    \begin{beamercolorbox}[sep=8pt,center]{institute}
         \usebeamerfont{institute}\insertinstitute
-        \end{beamercolorbox}
-        % ------------------------
-        \begin{beamercolorbox}[sep=8pt,center]{date}
+    \end{beamercolorbox}
+    % ------------------------
+    \begin{beamercolorbox}[sep=8pt,center]{date}
         \usebeamerfont{date}\insertdate
-        \end{beamercolorbox}\vskip0.5em
-        % ------------------------
-        {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+    \end{beamercolorbox}\vskip0.5em
+    % ------------------------
+    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
     \endgroup
     \vfill
 }

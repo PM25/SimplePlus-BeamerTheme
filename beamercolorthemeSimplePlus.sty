@@ -1,21 +1,24 @@
-% define color
-\definecolor{InvisibleRed}{rgb}{0.97, 0.92, 0.92}
-\definecolor{InvisibleGreen}{rgb}{0.92, 0.97, 0.92}
-\definecolor{InvisibleBlue}{rgb}{0.92, 0.92, 0.97}
+% Color Settings
+
+% define custom colors
+\definecolor{MutedRed}{rgb}{0.97, 0.92, 0.92}
+\definecolor{MutedGreen}{rgb}{0.92, 0.97, 0.92}
+\definecolor{MutedBlue}{rgb}{0.92, 0.92, 0.97}
 
 \definecolor{MediumRed}{rgb}{0.925, 0.345, 0.345}
 \definecolor{MediumGreen}{rgb}{0.37, 0.7, 0.66}
 \definecolor{MediumBlue}{rgb}{0.015, 0.315, 0.45}
 
-\definecolor{DarkBlue}{rgb}{0.05, 0.15, 0.35} 
+\definecolor{DarkBlue}{rgb}{0.05, 0.15, 0.35}
 
-% set color
+% set beamer color themes
 \usecolortheme[named=DarkBlue]{structure}
 
+% customize colors for elements
 \setbeamercolor{titlelike}{parent=structure}
-\setbeamercolor{block title}{bg=MediumBlue}
-\setbeamercolor{block body}{bg=InvisibleBlue}
-\setbeamercolor{block title example}{bg=MediumGreen}
-\setbeamercolor{block body example}{bg=InvisibleGreen}
-\setbeamercolor{block title alerted}{bg=MediumRed}
-\setbeamercolor{block body alerted}{bg=InvisibleRed}
+\setbeamercolor{block title}{fg=white,bg=MediumBlue}
+\setbeamercolor{block body}{fg=black,bg=MutedBlue}
+\setbeamercolor{block title example}{fg=white,bg=MediumGreen}
+\setbeamercolor{block body example}{fg=black,bg=MutedGreen}
+\setbeamercolor{block title alerted}{fg=white,bg=MediumRed}
+\setbeamercolor{block body alerted}{fg=black,bg=MutedRed}
