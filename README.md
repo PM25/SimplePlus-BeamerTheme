@@ -1,12 +1,11 @@
 # 🍃 SimplePlus Beamer Theme
 
-The SimplePlus Beamer Theme is a simple and clear LaTeX template designed for academic and scientific presentations. It has been modified from the [SimpleDarkBlue](https://github.com/pm25/SimpleDarkBlue-BeamerTheme) Beamer Theme and offers a more minimalist approach to presentation design.
+The SimplePlus Beamer Theme is a simple and clear LaTeX template designed for academic and scientific presentations. It has been modified from the [🫐SimpleDarkBlue](https://github.com/pm25/SimpleDarkBlue-BeamerTheme) Beamer Theme and offers a more minimalist approach to presentation design.
 
 You can find the SimplePlus Beamer Theme on [Overleaf](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx) or [CTAN](https://ctan.org/pkg/beamertheme-simpleplus). The Overleaf link provides an easy-to-use web-based LaTeX editor, while the CTAN link allows you to download the template files for use in your own LaTeX environment.
 
--   Overleaf: [https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx) <br>
--   CTAN: [https://ctan.org/pkg/beamertheme-simpleplus](https://ctan.org/pkg/beamertheme-simpleplus) <br>
--   Github: [https://github.com/pm25/SimplePlus-BeamerTheme](https://github.com/pm25/SimplePlus-BeamerTheme)
+-   Overleaf: [https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx](https://www.overleaf.com/latex/templates/simpleplus-beamertheme/wfmfjhdcrdfx)
+-   CTAN: [https://ctan.org/pkg/beamertheme-simpleplus](https://ctan.org/pkg/beamertheme-simpleplus)
 
 ## Preview
 
