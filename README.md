@@ -11,14 +11,14 @@ You can find the SimplePlus Beamer Theme on [Overleaf](https://www.overleaf.com/
 
 Below are some example slides created with the SimplePlus Beamer Theme:
 
-![Slide 1](preview/1.webp)
-![Slide 2](preview/2.webp)
-![Slide 3](preview/3.webp)
-![Slide 4](preview/4.webp)
-![Slide 5](preview/5.webp)
-![Slide 6](preview/6.webp)
-![Slide 9](preview/9.webp)
-![Slide 10](preview/10.webp)
+![Slide 1](preview/slide-1.webp)
+![Slide 2](preview/slide-2.webp)
+![Slide 3](preview/slide-3.webp)
+![Slide 4](preview/slide-4.webp)
+![Slide 5](preview/slide-5.webp)
+![Slide 6](preview/slide-6.webp)
+![Slide 9](preview/slide-9.webp)
+![Slide 10](preview/slide-10.webp)
 
 ## License
 
